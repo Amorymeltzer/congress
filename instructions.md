@@ -1,4 +1,9 @@
 ### Stats for a given congressional size
+####Todo
+- Currently not working
+    - Hunt-Hill calculations?
+    - Selection of the electors?
+    - Just population errors?
 
 #### States, Electors, Average district size
 perl huntHill.pl 435 2010_census.csv | sort -rnk 2 | head -n 50 | cut -f 2,3 > current.tsv 
