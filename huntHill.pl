@@ -19,7 +19,7 @@ while (<$census>) {
   my $name = shift @data;	# state name is the key
   $name =~ s/ /_/;		# spaces suck
   push @data, 1;		# each state gets at least one Representative
-  $congress{$name} = [@data];	# population, etc are the values in the array
+  $congress{$name} = [@data];	# 0->population, 1->reps
 }
 close $census;
 
