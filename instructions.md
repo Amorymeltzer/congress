@@ -1,9 +1,9 @@
-### Stats for a given congressional size
 ####Todo
-- 2000 election used numbers from 1990, of course.  Tricky.
+- 2000 election uses numbers from 1990, of course.  Tricky.
 
+### Stats for a given congressional size
 #### States, Electors, Average district size
-perl huntHill.pl 435 2010_census.csv | sort -rnk 2 | head -n 50 | cut -f 2,3 > current.tsv 
+perl huntHill.pl 435 2010_census.csv | sort -rnk 2 | head -n 50 | cut -f 2,3 > current.tsv
 
 #### Convert the file above into some basic stats
 perl avgDistSize.pl current.tsv
@@ -20,3 +20,7 @@ perl fakeData.pl 2010_census.csv > voting_data.tsv
 
 ### Simulate the election given the above fake data and a list of house sizes
 perl electionSim.pl voting_data.tsv sizes.tsv
+
+#### Predict election changes given census data for a certain range of house sizes
+**Don't actually know what this does**
+perl newCongress.pl
