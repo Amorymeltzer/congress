@@ -26,20 +26,21 @@ close $census;
 while (calcReps() < $ARGV[0]) {
   huntHill();
   sortState();
+  #print "$priority\n";
   $congress{$priority}[1]++;
 }
 
 sortState();		      # final recalc of avg for the last apportionment
 die 'incongruent' unless $repTotal == $ARGV[0];
 print "State\tReps\tPop per Rep\n";
-#  print "$_\t$congress{$_}[1]\t$congress{$_}[3]\n" foreach keys %congress;
+print "$_\t$congress{$_}[1]\t$congress{$_}[3]\n" foreach keys %congress;
 
 # Use 535
-foreach (keys %congress) {
-  print "$_\t";
-  print $congress{$_}[1]+2;
-  print "\t$congress{$_}[3]\n";
-}
+# foreach (keys %congress) {
+#   print "$_\t";
+#   print $congress{$_}[1]+2;
+#   print "\t$congress{$_}[3]\n";
+# }
 
 # Calculate divisor, append to state hasharray
 # D = sqrt(n(n+1)), sqrt(n+n^2)
