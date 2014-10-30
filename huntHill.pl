@@ -36,11 +36,11 @@ print "$_\t$congress{$_}[1]\t$congress{$_}[3]\n" foreach keys %congress;
 
 
 # Calculate divisor, append to state hasharray
-# D = sqrt(n(n+1))
+# D = sqrt(n(n+1)), sqrt(n+n^2)
 sub huntHill
   {
     foreach my $state (keys %congress) {
-      $congress{$state}[2] = sqrt($congress{$state}[1]*($congress{$state}[1]+1));
+      $congress{$state}[2] = sqrt($congress{$state}[1]**2+$congress{$state}[1]);
     }
     return;
   }
