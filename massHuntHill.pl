@@ -43,7 +43,7 @@ for my $i ($ARGV[0]..$ARGV[1]) {
   sortState();		      # final recalc of avg for the last apportionment
   die 'incongruent' unless $repTotal == $i;
   #    print "State\tReps\tPop per Rep\n";
-  print "$i";						      # EC total
+  print "$i";						    # EC total
   print "\t$congress{$_}[1]" foreach (sort keys %congress); # reps for each state
   print "\n";
   #    print "\tempty\n";
