@@ -22,7 +22,7 @@ while (<$data>) {
   $num += $tmp[0];
   #    print "$sum\n";
 }
-close $data;
+close $data or die $!;
 
 # Total pop divided by number of districts
 my $mean = int ($sum / $num);
@@ -38,7 +38,7 @@ while (<$data>) {
     $diff += $tmp*$tmp;
   }
 }
-close $data;
+close $data or die $!;
 
 # Population and Sample variances to four decimals
 my $varPop = $diff/$num;
