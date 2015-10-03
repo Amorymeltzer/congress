@@ -24,6 +24,3 @@ perl electionSim.pl voting_data.tsv sizes.tsv
 *Don't actually know what this does*
 
 perl newCongress.pl
-
-####Todo
-- 2000 election uses numbers from 1990, of course.  Tricky.
