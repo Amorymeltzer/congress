@@ -8,3 +8,4 @@
 - Convert to .csv?  Or all .tsv?
 - massHuntHill - Divide by Wyoming to get some measure of divisibility
 - ie if everything divisible...
+- Test suite ie confirm calculations match actual
