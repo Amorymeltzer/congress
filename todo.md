@@ -20,5 +20,6 @@
 - How to get a three-dimensional graph?  Probably need python/R there...
 - Option simulate senate increase
 - 60k per seat courtesy of Madison's proposed 12 amendments
+- Show changes in house, senate distribution, scores, etc.
 
 - Check out http://www.arilamstein.com/blog/2015/08/13/mapping-historic-us-presidential-election-results/ and http://www.arilamstein.com/blog/2016/03/21/mapping-election-results-r-choroplethr/ and maybe http://www.arilamstein.com/blog/2016/04/18/r-election-analysis-contest-results/
