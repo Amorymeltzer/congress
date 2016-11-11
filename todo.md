@@ -2,6 +2,7 @@
 - Figure out how this works...
 - Map out gameplan for rewrite
 - R or python for graphs?  Need to get in there
+- Maybe start from R and desired graphs, work backwards to the data needed, then to the scripts
 
 - 2000 election uses numbers from 1990, of course.  Tricky.
 
