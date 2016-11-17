@@ -4,6 +4,7 @@
 - R or python for graphs?  Need to get in there
 - In R can maybe use Rcartogram http://stackoverflow.com/questions/32406216/population-weighted-polygon-distortion
 - Maybe start from R and desired graphs, work backwards to the data needed, then to the scripts
+- Basically, make maps of USA for each year(?), make DW score maps of congress (http://voteview.com/dwnl.htm)
 
 - 2000 election uses numbers from 1990, of course.  Tricky.
 
