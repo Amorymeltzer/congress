@@ -27,3 +27,5 @@
 - Maybe one of those tweaked US maps by size, etc.
 
 - Check out http://www.arilamstein.com/blog/2015/08/13/mapping-historic-us-presidential-election-results/ and http://www.arilamstein.com/blog/2016/03/21/mapping-election-results-r-choroplethr/ and maybe http://www.arilamstein.com/blog/2016/04/18/r-election-analysis-contest-results/
+- See https://www.nytimes.com/interactive/2018/11/09/opinion/expanded-house-representatives-size.html for size rationale, predictions, generally better implementation
+- Also http://autoredistrict.org/ to create districts, etc.
